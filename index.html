@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo degli Invincibili</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-hidden font-[Nunito] h-screen flex items-center justify-center">
+    <div class="w-full h-full flex">
+        <div class="w-1/2 flex items-center justify-center bg-blue-200">
+            <div class="flex px-8 space-y-8 flex-col">
+                <p class="text-4xl font-black text-center text-pink-900">Museo degli Invincibili</p>
+                <p class="text-2xl font-bold text-pink-900">
+                    Questo museo è stato realizzato nel 2005 e racchiude in sé i più grandi e valorosi condottieri, tra cui <b>Alessandro Magno, Carlo Magno e Napoleone Bonaparte</b>.<br>
+                    Il fine è quello di imprimere nella mente del pubblico le loro gesta, affinché vengano tramandate di generazione in generazione.<br>
+                    Il museo si trova nel centro storico di <u>Napoli</u> in un punto di potenziale attrazione per i turisti provenienti da ogni parte del mondo.<br>
+                    In particolare la struttura è composta da tre sale:<br />
+                    1. Sala di accoglienza con un piccolo buffet e gadget;<br />
+                    2. Sala video con proiezioni storiche guidate;<br />
+                    3. Sala mostra con quadri e spiegazioni dettagliate.
+                </p>
+            </div>
+        </div>
+        <div class="w-1/2 grid grid-rows-3">
+            <div class="relative group overflow-hidden">
+                <img class="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-110"
+                    src="https://cdn-media.italiani.it/site-venezia/2019/01/08A-Alessandro-e-Bucefalo-durante-la-battaglia-di-Isso-Museo-Archeologico-Nazionale-di-Napoli-1000x600.jpg"
+                    alt="Alessandro Magno">
+                <a href="alessandro.html"
+                    class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                    <span class="text-white text-xl font-bold">Alessandro Magno</span>
+                </a>
+            </div>
+            <div class="relative group overflow-hidden">
+                <img class="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-110"
+                    src="https://www.univrmagazine.it/wp-content/uploads/2024/07/Carlo-Magno.2000.jpg"
+                    alt="Carlo Magno">
+                <a href="carlo.html"
+                    class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                    <span class="text-white text-xl font-bold">Carlo Magno</span>
+                </a>
+            </div>
+            <div class="relative group overflow-hidden">
+                <img class="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-110"
+                    src="https://www.avvenire.it/c/2015/PublishingImages/7eb73498b0a34ecdbdd1f261d3532455/napbon1.jpg?width=1024"
+                    alt="Napoleone Bonaparte">
+                <a href="napoleone.html"
+                    class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                    <span class="text-white text-xl font-bold">Napoleone Bonaparte</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;900&display=swap');
+    </style>
+</body>
+</html>
